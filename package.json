@@ -1,0 +1,38 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Awakesh/api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Awakesh/api/issues"
+  },
+  "homepage": "https://github.com/Awakesh/api#readme",
+  "dependencies": {
+    "config": "^3.3.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.1.0",
+    "helmet": "^6.0.1",
+    "https": "^1.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "mysql2": "^3.1.0",
+    "path": "^0.12.7",
+    "request-promise": "^4.2.6",
+    "sequelize": "^6.28.0",
+    "sequelize-cli": "^6.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
