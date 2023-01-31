@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Awakesh/api#readme",
   "dependencies": {
+    "@hapi/joi": "^17.1.1",
     "config": "^3.3.9",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
@@ -28,6 +29,7 @@
     "jsonwebtoken": "^9.0.0",
     "mysql2": "^3.1.0",
     "path": "^0.12.7",
+    "query-string": "^8.1.0",
     "request-promise": "^4.2.6",
     "sequelize": "^6.28.0",
     "sequelize-cli": "^6.6.0"
